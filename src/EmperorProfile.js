@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
 
-function Emperors(){
+function EmperorProfile() {
 
     return (
         <div>
@@ -10,8 +10,7 @@ function Emperors(){
             </header>
 
         </div>
-
     )
 }
 
-export default Emperors;
+export default EmperorProfile;
