@@ -22,6 +22,12 @@ function NavBar() {
             >
             Emperor Profile
             </NavLink>
+            <NavLink
+            to="/emperorform"
+            className="nav-link"
+            >
+            Emperor Form
+            </NavLink>
         </nav>
     )
 }

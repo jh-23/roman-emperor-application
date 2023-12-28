@@ -7,6 +7,7 @@ import Home from './Home';
 import reportWebVitals from './reportWebVitals';
 import Emperors from './Emperors';
 import EmperorProfile from './EmperorProfile';
+import EmperorForm from './EmperorForm';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/emperorprofile",
     element: <EmperorProfile />
+  },
+  {
+    path: "/emperorform",
+    element: <EmperorForm />
   }
 ]);
 
