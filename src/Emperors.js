@@ -11,6 +11,8 @@ function Emperors() {
             .then((data) => setEmperors(data))
     }, [])
 
+
+
     const emperorsList = emperors.map((emperor) => {
         return <li key={emperor.id}>{emperor.name}</li>
     })

@@ -6,9 +6,8 @@ function EmperorCard({ emperor }) {
     return (
         <div>
             <article>
-                <h2>{emperor.name}</h2>
                 <p>
-                <Link to={`/emperorprofile/${emperor.id}`}>View Profile</Link>
+                <Link to={`/emperorprofile/${emperor.id}`}>{emperor.name}</Link>
                 </p>
             </article>
         </div>

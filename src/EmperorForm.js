@@ -27,6 +27,9 @@ function EmperorForm({ onAddEmperor }) {
             .then((data) => onAddEmperor(data))
     }
 
+
+
+    
     return (
         <div>
             <header>
