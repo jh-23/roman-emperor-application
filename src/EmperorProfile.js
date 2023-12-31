@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import NavBar from './NavBar';
 
 function EmperorProfile() {
@@ -8,6 +8,9 @@ function EmperorProfile() {
             <header>
                 <NavBar />
             </header>
+            <main>
+                <h1>Emperor Profile</h1>
+            </main>
 
         </div>
     )

@@ -12,14 +12,14 @@ import EmperorForm from './EmperorForm';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />
+    element: <App />
   },
   {
     path: "/emperors",
     element: <Emperors />
   },
   {
-    path: "/emperorprofile",
+    path: "/emperorprofile/:id",
     element: <EmperorProfile />
   },
   {

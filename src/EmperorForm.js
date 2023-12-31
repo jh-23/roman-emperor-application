@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NavBar from './NavBar';
 
-function EmperorForm({ handleAddNewEmperor }) {
+function EmperorForm({ onAddEmperor }) {
 
     const [name, setName] = useState("");
     const [reign, setReign] = useState("");
@@ -23,8 +23,8 @@ function EmperorForm({ handleAddNewEmperor }) {
             },
             body: JSON.stringify(formData),
         })
-            .then((r) => r.json())
-            .then((data) => handleAddNewEmperor(data))
+            .then(r => r.json())
+            .then((data) => onAddEmperor(data))
     }
 
     return (
