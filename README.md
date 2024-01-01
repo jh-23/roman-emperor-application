@@ -12,5 +12,20 @@ It also requires npm install and npm start of the app from one terminal, and ano
 Contact:
 John Heger
 heger7@gmail.com
-Project Link: 
+Project Link: https://github.com/jh-23/roman-emperor-application/tree/main
+
+Acknowledgments:
+Would like to say you thank you to my Flatiron School Phase 2 Instructor Madeline Stark for her guidance and help on this project.
+Thanks to the Flatiron School students on the Discord channels who also provided some troubleshooting support.  
+
+Citations used for Roman Emperor information:
+https://www.history.com/news/timeline-emperors-roman-republic
+https://www.thecollector.com/roman-emperors/
+https://www.metmuseum.org/toah/hd/roru/hd_roru.htm
+https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Augustus_of_Prima_Porta_%28inv._2290%29.jpg/1024px-Augustus_of_Prima_Porta_%28inv._2290%29.jpg
+https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Nero_Glyptothek_Munich_321.jpg/1280px-Nero_Glyptothek_Munich_321.jpg
+https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/CVT_APX_Amphitheater_Traiansstatue.jpg/1024px-CVT_APX_Amphitheater_Traiansstatue.jpg
+https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/MSR-ra-61-b-1-DM.jpg/1280px-MSR-ra-61-b-1-DM.jpg
+https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Commodus_Musei_Capitolini_MC1120.jpg/1024px-Commodus_Musei_Capitolini_MC1120.jpg
+
 

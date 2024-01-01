@@ -5,9 +5,10 @@ import './index.css';
 import App from './App';
 import Home from './Home';
 import reportWebVitals from './reportWebVitals';
-import Emperors from './Emperors';
+import Emperors from './About';
 import EmperorProfile from './EmperorProfile';
 import EmperorForm from './EmperorForm';
+import About from './About';
 
 const router = createBrowserRouter([
   {
@@ -15,8 +16,8 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path: "/emperors",
-    element: <Emperors />
+    path: "/about",
+    element: <About />
   },
   {
     path: "/emperorprofile/:id",

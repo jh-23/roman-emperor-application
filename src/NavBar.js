@@ -11,10 +11,10 @@ function NavBar() {
             Home
             </NavLink>
             <NavLink
-            to="/emperors"
+            to="/about"
             className="nav-link"
             >
-            Emperors
+            About
             </NavLink>
             <NavLink
             to="/emperorprofile/:id"

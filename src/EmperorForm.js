@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import NavBar from './NavBar';
+import styled from 'styled-components';
 
 function EmperorForm({ onAddEmperor }) {
 
@@ -27,16 +28,18 @@ function EmperorForm({ onAddEmperor }) {
             .then((data) => onAddEmperor(data))
     }
 
+    const H2 = styled.h2`
+    color: red;
+    font-size: 4rem;
+    `
 
-
-    
     return (
-        <div>
+        <div className="roman-emperor-form">
             <header>
                 <NavBar />
             </header>
         <div className="new-emperor-form">
-            <h2>New Emperor Form</h2>
+            <H2>New Emperor Form</H2>
             <form onSubmit={handleSubmit}>
                 <input type="text" name="name" placeholder="Emperor name" value={name} onChange={(e) => setName(e.target.value)} />
                 <input type="text" name="reign" placeholder="Reign time period" value={reign} onChange={(e) => setReign(e.target.value)} />

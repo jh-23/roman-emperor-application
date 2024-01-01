@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Emperors from './Emperors';
+import Emperors from './About';
 import EmperorForm from './EmperorForm';
 import NavBar from './NavBar';
 import EmperorCard from './EmporerCard';
@@ -36,13 +36,11 @@ function App() {
 
   return (
     <div className="App">
-      <body className='App-body'>
       <header>
       </header>
       <H1>My Roman Emperor App</H1>
       <EmperorForm onAddEmperor={addEmperor} />
       {emperorList}
-      </body>
     </div>
   );
 }

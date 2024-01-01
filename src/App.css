@@ -1,9 +1,14 @@
 .App {
   text-align: center;
+  background-image: url('https://images4.alphacoders.com/102/1025923.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-body {
-  background-image: url('https://images4.alphacoders.com/102/1025923.jpg');
+.roman-emperor-form {
+  background-image: url('https://as1.ftcdn.net/v2/jpg/05/85/21/72/1000_F_585217221_k5TqvtShdLy2g4Q5lHLFWzaluJyH2SFj.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
