@@ -5,6 +5,7 @@ import Emperors from './Emperors';
 import EmperorForm from './EmperorForm';
 import NavBar from './NavBar';
 import EmperorCard from './EmporerCard';
+import styled from 'styled-components';
 
 function App() {
 
@@ -28,13 +29,20 @@ function App() {
       return <EmperorCard key={emperor.id} emperor={emperor} />
     });
 
+    const H1 = styled.h1`
+    color: red;
+    font-size: 4rem;
+    `
+
   return (
     <div className="App">
+      <body className='App-body'>
       <header>
       </header>
-      <h1>My Roman Emperor App</h1>
+      <H1>My Roman Emperor App</H1>
       <EmperorForm onAddEmperor={addEmperor} />
       {emperorList}
+      </body>
     </div>
   );
 }

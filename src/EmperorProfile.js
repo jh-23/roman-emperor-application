@@ -25,7 +25,7 @@ function EmperorProfile() {
             </header>
             <main>
                 <h1>{emperor.name}</h1>
-                <p>Reign: {emperor.reign}</p>
+                <h3>Reign: {emperor.reign}</h3>
                 <img src={emperor.image} alt={emperor.name} />
                 <p>Emperor Info: {emperor.info}</p>
             </main>
