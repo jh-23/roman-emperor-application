@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import NavBar from './NavBar';
 import styled from 'styled-components';
+import { useOutletContext } from 'react-router-dom';
 
-function EmperorForm({ onAddEmperor }) {
+function EmperorForm() {
+
+    const {addEmperor} = useOutletContext;
+
 
     const [name, setName] = useState("");
     const [reign, setReign] = useState("");
@@ -21,7 +25,7 @@ function EmperorForm({ onAddEmperor }) {
         setReign("");
         setImage("");
         setInfo("");
-        
+
         fetch('http://localhost:3000/emperors', {
             method: "POST",
             headers: {
@@ -30,7 +34,7 @@ function EmperorForm({ onAddEmperor }) {
             body: JSON.stringify(formData),
         })
             .then(r => r.json())
-            .then((data) => onAddEmperor(data))
+            .then((data) => addEmperor(data))
     }
 
     const H2 = styled.h2`

@@ -2,30 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import EmperorProfile from './EmperorProfile';
-import EmperorForm from './EmperorForm';
-import About from './About';
+import routes from "./routes";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />
-  },
-  {
-    path: "/about",
-    element: <About />
-  },
-  {
-    path: "/emperorprofile/:id",
-    element: <EmperorProfile />
-  },
-  {
-    path: "/emperorform",
-    element: <EmperorForm />
-  }
-]);
+
+const router = createBrowserRouter(routes);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<RouterProvider router={router} />);
