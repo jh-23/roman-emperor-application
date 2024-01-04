@@ -9,7 +9,6 @@ function Home() {
                 <NavBar />
             </header>
             <h1>My Roman Emperor App</h1>
-            <p></p>
         </div>
 
     )

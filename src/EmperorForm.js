@@ -17,6 +17,11 @@ function EmperorForm({ onAddEmperor }) {
             image: image,
             info: info,
         }
+        setName("");
+        setReign("");
+        setImage("");
+        setInfo("");
+        
         fetch('http://localhost:3000/emperors', {
             method: "POST",
             headers: {

@@ -17,12 +17,6 @@ function NavBar() {
             About
             </NavLink>
             <NavLink
-            to="/emperorprofile/:id"
-            className="nav-link"
-            >
-            Emperor Profile
-            </NavLink>
-            <NavLink
             to="/emperorform"
             className="nav-link"
             >

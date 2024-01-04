@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Emperors from './About';
 import EmperorForm from './EmperorForm';
 import NavBar from './NavBar';
 import EmperorCard from './EmporerCard';
