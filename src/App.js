@@ -38,7 +38,7 @@ function App() {
         <NavBar />
       </header>
       <H1>My Roman Emperor App</H1>
-      <Outlet context={addEmperor}/>
+      <Outlet context={addEmperor} />
       {emperorList}
     </div>
   );

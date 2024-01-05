@@ -5,8 +5,8 @@ import { useOutletContext } from 'react-router-dom';
 
 function EmperorForm() {
 
-    const {addEmperor} = useOutletContext;
-
+    const addEmperor = useOutletContext();
+    console.log(addEmperor);
 
     const [name, setName] = useState("");
     const [reign, setReign] = useState("");

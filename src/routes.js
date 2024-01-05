@@ -6,7 +6,13 @@ import About from './About';
 const routes = [
     {
         path: "/",
-        element: <App />
+        element: <App />,
+        children: [      
+            {
+                path: "/emperorform",
+                element: <EmperorForm />
+            }
+        ]
       },
       {
         path: "/about",
@@ -15,11 +21,8 @@ const routes = [
       {
         path: "/emperorprofile/:id",
         element: <EmperorProfile />
-      },
-      {
-        path: "/emperorform",
-        element: <EmperorForm />
       }
+
 ];
 
 export default routes;
