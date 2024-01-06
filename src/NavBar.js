@@ -22,6 +22,12 @@ function NavBar() {
             >
             Emperor Form
             </NavLink>
+            <NavLink
+            to="/resources"
+            className="nav-link"
+            >
+            Resources
+            </NavLink>
         </nav>
     )
 }

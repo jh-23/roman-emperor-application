@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import EmperorForm from './EmperorForm';
 import { Outlet } from "react-router-dom"
 import NavBar from './NavBar';
 import EmperorCard from './EmporerCard';
@@ -36,8 +34,8 @@ function App() {
     <div className="App">
       <header>
         <NavBar />
+        <H1>Roman Emperor App</H1>
       </header>
-      <H1>My Roman Emperor App</H1>
       <Outlet context={addEmperor} />
       {emperorList}
     </div>

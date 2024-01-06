@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import NavBar from './NavBar';
 import styled from 'styled-components';
 import { useOutletContext } from 'react-router-dom';
 
@@ -37,18 +36,14 @@ function EmperorForm() {
             .then((data) => addEmperor(data))
     }
 
-    const H2 = styled.h2`
+    const H4 = styled.h4`
     color: red;
-    font-size: 4rem;
+    font-size: 3rem;
     `
 
     return (
-        <div className="roman-emperor-form">
-            <header>
-                <NavBar />
-            </header>
         <div className="new-emperor-form">
-            <H2>New Emperor Form</H2>
+            <H4>Add Roman Emperor Form</H4>
             <form onSubmit={handleSubmit}>
                 <input type="text" name="name" placeholder="Emperor name" value={name} onChange={(e) => setName(e.target.value)} />
                 <input type="text" name="reign" placeholder="Reign time period" value={reign} onChange={(e) => setReign(e.target.value)} />
@@ -56,7 +51,6 @@ function EmperorForm() {
                 <input type="text" name="info" placeholder="Emperor info" value={info} onChange={(e) => setInfo(e.target.value)} />
                 <button type="submit">Add Roman Emperor</button>
             </form>
-        </div>
         </div>
     )
 }

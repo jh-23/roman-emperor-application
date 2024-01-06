@@ -2,6 +2,7 @@ import App from './App';
 import EmperorProfile from './EmperorProfile';
 import EmperorForm from './EmperorForm';
 import About from './About';
+import Resources from './Resources';
 
 const routes = [
     {
@@ -21,8 +22,11 @@ const routes = [
       {
         path: "/emperorprofile/:id",
         element: <EmperorProfile />
+      },
+      {
+        path: "/resources",
+        element: <Resources />
       }
-
 ];
 
 export default routes;
