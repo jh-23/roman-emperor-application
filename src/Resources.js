@@ -19,7 +19,9 @@ function Resources() {
                 <H3>Resources</H3>
                 <p>Emperor information extracted from the following websites: </p>
                 <ul>
-                    <li>https://www.history.com/news/timeline-emperors-roman-republic</li>
+                    <li>
+                    <a href="https://www.history.com/news/timeline-emperors-roman-republic">https://www.history.com/news/timeline-emperors-roman-republic</a>
+                    </li>
                     <li>https://www.thecollector.com/roman-emperors/</li>
                     <li>https://www.metmuseum.org/toah/hd/roru/hd_roru.htm</li>
                 </ul>
