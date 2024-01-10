@@ -22,7 +22,9 @@ function Resources() {
                     <li>
                     <a href="https://www.history.com/news/timeline-emperors-roman-republic">https://www.history.com/news/timeline-emperors-roman-republic</a>
                     </li>
-                    <li>https://www.thecollector.com/roman-emperors/</li>
+                    <li>
+                    <a href="https://www.thecollector.com/roman-emperors/">https://www.thecollector.com/roman-emperors/</a>
+                    </li>
                     <li>https://www.metmuseum.org/toah/hd/roru/hd_roru.htm</li>
                 </ul>
                 <p>Emperor images extracted from the following sources: </p>
