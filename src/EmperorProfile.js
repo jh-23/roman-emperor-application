@@ -3,9 +3,10 @@ import { useParams } from 'react-router-dom';
 import NavBar from './NavBar';
 
 function EmperorProfile() {
-    const [emperor, setEmperor] = useState({});
+    const [emperor, setEmperor] = useState([]);
     const params = useParams();
     const emperorId = params.id;
+    
 
     useEffect(() => {
         fetch(`http://localhost:3000/emperors/${emperorId}`)
