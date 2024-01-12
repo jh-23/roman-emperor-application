@@ -43,7 +43,9 @@ function Resources() {
                     <li>
                     <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/MSR-ra-61-b-1-DM.jpg/1280px-MSR-ra-61-b-1-DM.jpg">https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/MSR-ra-61-b-1-DM.jpg/1280px-MSR-ra-61-b-1-DM.jpg</a>
                     </li>
-                    <li>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Commodus_Musei_Capitolini_MC1120.jpg/1024px-Commodus_Musei_Capitolini_MC1120.jpg</li>
+                    <li>
+                    <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Commodus_Musei_Capitolini_MC1120.jpg/1024px-Commodus_Musei_Capitolini_MC1120.jpg">https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Commodus_Musei_Capitolini_MC1120.jpg/1024px-Commodus_Musei_Capitolini_MC1120.jpg</a>
+                    </li>
                 </ul>
             </main>  
         </div>
