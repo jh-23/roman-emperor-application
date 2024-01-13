@@ -22,8 +22,8 @@ function About() {
             <header>
                 <NavBar />
             </header>
-            <H2>About the App</H2>
-            <H3>Roman Emperor Introduction</H3>
+            <H2>About the Roman Emperors</H2>
+            <H3>Introduction</H3>
             <P>
             The Roman emperor was the ruler and monarchical head of state of the Roman Empire, starting with the granting of the title augustus to Octavian in 27 BC.[2] The term "emperor" is a modern convention, and did not exist as such during the Empire. Often when a given Roman is described as becoming emperor in English, it reflects his taking of the title augustus and later basileus. Another title often used was imperator, originally a military honorific, and caesar, originally a surname. Early emperors also used the title princeps ("first one") alongside other Republican titles, notably consul and pontifex maximus. 
             </P>

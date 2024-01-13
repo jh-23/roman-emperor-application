@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
 import { useOutletContext } from 'react-router-dom';
 
 function EmperorForm() {
@@ -38,7 +37,6 @@ function EmperorForm() {
 
     return (
         <div className="new-emperor-form">
-
             <form onSubmit={handleSubmit}>
                 <input type="text" name="name" placeholder="Emperor name" value={name} onChange={(e) => setName(e.target.value)} />
                 <input type="text" name="reign" placeholder="Reign time period" value={reign} onChange={(e) => setReign(e.target.value)} />

@@ -9,8 +9,17 @@
 }
 
 .About {
+  text-align: center;
+  background-image: url('https://as1.ftcdn.net/v2/jpg/05/85/21/72/1000_F_585217221_k5TqvtShdLy2g4Q5lHLFWzaluJyH2SFj.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.resources {
   text-align: left;
-  background-image: url('https://www.thecolosseum.org/wp-content/uploads/2017/09/Colosseum-optimized-970x647.jpg');
+  background-image: url('https://colosseumrometickets.com/wp-content/uploads/2018/05/Who-is-ColosseumS-Architect-Colosseum-in-Rome-at-sunrise-Italy-Europe..jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

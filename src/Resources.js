@@ -10,7 +10,7 @@ function Resources() {
     `
 
     return (
-        <div>
+        <div className='resources'>
             <header>
                 <NavBar />
             </header>
