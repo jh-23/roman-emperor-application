@@ -36,14 +36,14 @@ function EmperorForm() {
             .then((data) => addEmperor(data))
     }
 
-    const H4 = styled.h4`
+    const H5 = styled.h5`
     color: red;
     font-size: 3rem;
     `
 
     return (
         <div className="new-emperor-form">
-            <H4>Add Roman Emperor Form</H4>
+            <H5>Add Roman Emperor Form</H5>
             <form onSubmit={handleSubmit}>
                 <input type="text" name="name" placeholder="Emperor name" value={name} onChange={(e) => setName(e.target.value)} />
                 <input type="text" name="reign" placeholder="Reign time period" value={reign} onChange={(e) => setReign(e.target.value)} />

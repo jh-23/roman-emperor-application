@@ -5,17 +5,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
 }
 
-.new-emperor-form {
+.About {
   text-align: center;
   background-image: url('https://as1.ftcdn.net/v2/jpg/05/85/21/72/1000_F_585217221_k5TqvtShdLy2g4Q5lHLFWzaluJyH2SFj.jpg');
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
 }
-
 
 .App-header {
   background-color: #282c34;
@@ -28,15 +28,4 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
