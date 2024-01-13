@@ -28,6 +28,9 @@ function Resources() {
                     <li>
                     <a href="https://www.metmuseum.org/toah/hd/roru/hd_roru.htm">https://www.metmuseum.org/toah/hd/roru/hd_roru.htm</a>
                     </li>
+                    <li>
+                        <a href="https://www.legendsandchronicles.com/ancient-civilizations/ancient-rome/emperors-of-ancient-rome/">https://www.legendsandchronicles.com/ancient-civilizations/ancient-rome/emperors-of-ancient-rome/</a>
+                    </li>
                 </ul>
                 <p>Emperor images extracted from the following sources: </p>
                 <ul>
