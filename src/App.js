@@ -30,12 +30,17 @@ function App() {
     font-size: 4rem;
     `
 
+    const H2 = styled.h2`
+    color: red;
+    font-size: 2rem`
+
   return (
     <div className="App">
       <header>
         <NavBar />
-        <H1>Roman Emperor App</H1>
+        <H1>Roman Emperors</H1>
       </header>
+      <H2>Emperor Profiles:</H2>
       <Outlet context={addEmperor} />
       {emperorList}
     </div>
