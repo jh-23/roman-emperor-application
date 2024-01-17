@@ -7,7 +7,6 @@ function EmperorProfile() {
     const params = useParams();
     const emperorId = params.id;
     
-
     useEffect(() => {
         fetch(`http://localhost:3000/emperors/${emperorId}`)
             .then((r) => r.json())
@@ -16,7 +15,8 @@ function EmperorProfile() {
     }, [emperorId]);
 
     if(!emperor.name){
-        return <h1>Loading...</h1>
+        return <h1>Loading...</h1> 
+        //Conditional rendering to make sure app doesn't error out while it's waiting for our user to be fetched.  
     }
 
     return (
