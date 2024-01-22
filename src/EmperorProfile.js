@@ -16,7 +16,7 @@ function EmperorProfile() {
 
     if(!emperor.name){
         return <h1>Loading...</h1> 
-        //Conditional rendering to make sure app doesn't error out while it's waiting for our user to be fetched.  
+        //Conditional rendering to make sure app doesn't error out while it's waiting for the emperor to be fetched.  
     }
 
     return (

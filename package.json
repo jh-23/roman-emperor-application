@@ -7,10 +7,12 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "components": "^0.1.0",
+    "esbuild": "^0.19.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.21.1",
+    "react-router-dom": "^6.21.3",
     "react-scripts": "5.0.1",
+    "serve": "^14.2.1",
     "styled": "^1.0.0",
     "styled-components": "^6.1.6",
     "web-vitals": "^2.1.4"
@@ -38,5 +40,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Name: Roman Emperor App",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jh-23/roman-emperor-application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jh-23/roman-emperor-application/issues"
+  },
+  "homepage": ""
 }
